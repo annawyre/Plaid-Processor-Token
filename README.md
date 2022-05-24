@@ -11,4 +11,5 @@
 
 #### Run in Postman
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/104589640/169989480-ddeb8ec5-4e6f-4532-b988-0eccf8198cbc.png">
+![image](https://user-images.githubusercontent.com/104589640/170074771-61f37ad7-ac7c-4a1d-95c0-f1de9d5b8fee.png)
+
