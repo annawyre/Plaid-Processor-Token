@@ -1,6 +1,7 @@
 # Plaid-Processor-Token
 
 #### Create a [Plaid Account](https://dashboard.plaid.com/signup) to generate a Sandbox API Key
+- Activate the [Wyre integration](https://dashboard.plaid.com/team/integrations)
 
 #### Import `Plaid Processor Token.postman_collection.json` as a Collection
 
