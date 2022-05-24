@@ -12,9 +12,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"let response = pm.response.json();",
-							"publicToken = response.public_token;",
-							"pm.environment.set(\"public_token\", publicToken);"
+							"pm.test(\"OK\", function() {",
+							"    pm.response.to.have.status(200);",
+							"    let response = pm.response.json();",
+							"    publicToken = response.public_token;",
+							"    pm.environment.set(\"public_token\", publicToken);",
+							"});"
 						],
 						"type": "text/javascript"
 					}
@@ -54,9 +57,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"let response = pm.response.json();",
-							"accessToken = response.access_token;",
-							"pm.environment.set(\"access_token\", accessToken);"
+							"pm.test(\"OK\", function() {",
+							"    pm.response.to.have.status(200);",
+							"    let response = pm.response.json();",
+							"    accessToken = response.access_token;",
+							"    pm.environment.set(\"access_token\", accessToken);",
+							"});"
 						],
 						"type": "text/javascript"
 					}
@@ -204,12 +210,15 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"let response = pm.response.json();",
-							"// Plaid Checking 0000",
-							"account_id = response.accounts[0].account_id;",
-							"// Plaid Savings 1111",
-							"// account_id = response.accounts[1].account_id;",
-							"pm.environment.set(\"account_id\", account_id);"
+							"pm.test(\"OK\", function() {",
+							"    pm.response.to.have.status(200);",
+							"    let response = pm.response.json();",
+							"    // Plaid Checking 0000",
+							"    account_id = response.accounts[0].account_id;",
+							"    // Plaid Savings 1111",
+							"    // account_id = response.accounts[1].account_id;",
+							"    pm.environment.set(\"account_id\", account_id);",
+							"});"
 						],
 						"type": "text/javascript"
 					}
@@ -461,9 +470,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"let response = pm.response.json();",
-							"processorToken = response.processor_token;",
-							"pm.environment.set(\"processor_token\", processorToken);"
+							"pm.test(\"OK\", function() {",
+							"    pm.response.to.have.status(200);",
+							"    let response = pm.response.json();",
+							"    processorToken = response.processor_token;",
+							"    pm.environment.set(\"processor_token\", processorToken);",
+							"});"
 						],
 						"type": "text/javascript"
 					}
