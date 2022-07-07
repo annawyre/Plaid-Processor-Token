@@ -9,6 +9,9 @@
 - Add client id
 - Add secret key
 
+#### Creating the Processor Token
+Public Token > Access Token > Processor Token
+
 #### Run in Postman
 
 ![image](https://user-images.githubusercontent.com/104589640/170074771-61f37ad7-ac7c-4a1d-95c0-f1de9d5b8fee.png)
